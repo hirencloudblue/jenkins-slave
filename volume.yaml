@@ -30,7 +30,7 @@ metadata:
   name: jenkins-pv-claim
   namespace: jenkins
   
- spec:
+spec:
   accessModes:
     - ReadWriteOnce
   resources:
